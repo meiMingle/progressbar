@@ -3,8 +3,9 @@
     - Improvements:
       - Restored JDK 8 compatibility by using a multi-release JAR. The library now works on JDK 8+ while still providing JPMS module support for JDK 9+. This fixes #175. Thanks @LyingDoc !
     - Bugfixes:
-      - Fixed a `NullPointerException` (https://github.com/jline/jline3/issues/930) by updating a `jline` dependency. (PR #164). Thanks @koppor !
- * `0.10.1`:
+      - Fixed a `NullPointerException` (https://github.com/jline/jline3/issues/930) by updating a `jline` dependency (PR #164). Thanks @koppor !
+      - Fixed a problem with `jline` version mismatch (#169, PR #170). Thanks @hohwille @jan-vcapgemini !
+  * `0.10.1`:
      - Improvements:
         - Changed the JPMS module dependency `org.jline` to a more fine-grained module `org.jline.terminal` (#158, PR #159). Thanks @brett-smith !
         - Added a new builder method `setRenderer` to allow custom renderers (#157). Thanks @drothmaler !
