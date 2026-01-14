@@ -1,5 +1,7 @@
 # Changelog
  * `0.10.2`:
+    - Improvements:
+      - Restored JDK 8 compatibility by using a multi-release JAR. The library now works on JDK 8+ while still providing JPMS module support for JDK 9+.
     - Bugfixes:
       - Fixed a `NullPointerException` (https://github.com/jline/jline3/issues/930) by updating a `jline` dependency. (PR #164). Thanks @koppor !
  * `0.10.1`:
