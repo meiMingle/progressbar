@@ -1,5 +1,5 @@
 # progressbar 
-[![Maven Central](https://img.shields.io/maven-central/v/me.tongfei/progressbar.svg?style=flat-square)](https://maven-badges.herokuapp.com/maven-central/me.tongfei/progressbar)
+[![Maven Central](https://maven-badges.sml.io/maven-central/me.tongfei/progressbar/badge.svg)](https://central.sonatype.com/artifact/me.tongfei/progressbar)
 
 A console progress bar for JVM with minimal runtime overhead.
 
@@ -29,7 +29,7 @@ Maven:
   <dependency>
       <groupId>me.tongfei</groupId>
       <artifactId>progressbar</artifactId>
-      <version>0.10.0</version>
+      <version>$VERSION</version>
   </dependency>
 ```
 
