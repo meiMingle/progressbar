@@ -29,12 +29,12 @@ Maven:
   <dependency>
       <groupId>me.tongfei</groupId>
       <artifactId>progressbar</artifactId>
-      <version>0.10.0</version>
+      <version>$VERSION</version>
   </dependency>
 ```
 
 #### Usage
-Declarative usage (since `0.6.0`):
+Declarative usage:
 ```java
 // Looping over a collection:
 for (T x : ProgressBar.wrap(collection, "TaskName")) {
@@ -43,7 +43,7 @@ for (T x : ProgressBar.wrap(collection, "TaskName")) {
 }
 ```
 
-Imperative usage (since `0.7.0` switched to Java's try-with-resource pattern):
+Imperative usage:
 
 ```java
 // try-with-resource block
@@ -65,8 +65,7 @@ try (ProgressBar pb = new ProgressBar("Test", 100)) { // name, initial max
   }
 } // progress bar stops automatically after completion of try-with-resource block
 ```
-
-**NEW** in `0.9.0`: You can now use multiple progress bars for parallel jobs:
+You can have multiple progress bars for parallel jobs:
 ```java
 try (ProgressBar pb1 = new ProgressBar("Job1", max1); 
      ProgressBar pb2 = new ProgressBar("Job2", max2)) { ... }
