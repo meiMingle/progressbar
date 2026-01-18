@@ -22,7 +22,7 @@ Depending on your build tool, add the following setting.
     compile 'me.tongfei:progressbar:$VERSION'
     ```
 
-The newest `$VERSION` is [![Maven Central](https://img.shields.io/maven-central/v/me.tongfei/progressbar.svg?style=flat-square)](https://maven-badges.herokuapp.com/maven-central/me.tongfei/progressbar).
+The newest `$VERSION` is [![Maven Central](https://maven-badges.sml.io/maven-central/me.tongfei/progressbar/badge.svg)](https://central.sonatype.com/artifact/me.tongfei/progressbar).
 
 #### Getting started
 
