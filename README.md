@@ -1,5 +1,5 @@
 # progressbar 
-[![Maven Central](https://maven-badges.sml.io/maven-central/me.tongfei/progressbar/badge.svg)](https://central.sonatype.com/artifact/me.tongfei/progressbar)
+[![Maven Central](https://maven-badges.sml.io/sonatype-central/me.tongfei/progressbar/badge.svg)](https://central.sonatype.com/artifact/me.tongfei/progressbar)
 
 A console progress bar for JVM with minimal runtime overhead.
 
